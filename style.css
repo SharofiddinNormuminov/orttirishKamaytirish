@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+
+body {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(250, 40, 40);
+  border: 4px double rgb(69, 69, 131);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 12rem;
+  margin: 0 auto 4rem;
+  background-color: rgb(133, 136, 138, 0.5);
+  box-shadow: 1px 1px 5px 3px rgb(214, 0, 0);
+}
+
+.btn-group {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1rem;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.btn1 {
+  grid-row: 1/2;
+  grid-column: 1/5;
+}
+
+.btn2 {
+  grid-row: 1/2;
+  grid-column: 6/10;
+}
+
+.btn3 {
+  grid-row: 2/3;
+  grid-column: 6/10;
+}
+.btn4 {
+  grid-row: 2/3;
+  grid-column: 1/5;
+}
+
+.btnReset {
+  grid-row: 3/4;
+  grid-column: 3/8;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 20px 0px;
+  color: #ff0000;
+  background-color: rgb(114, 117, 117, 0.5);
+  font-size: 1.2rem;
+
+  font-family: "Fredoka", sans-serif;
+
+  font-weight: 400;
+  box-shadow: 1px 1px 2px 2px rgb(255, 89, 89);
+}
+
+button:hover {
+  background-color: rgb(114, 117, 117);
+}
+
+button:active {
+  box-shadow: none;
+}
